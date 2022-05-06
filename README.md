@@ -1,1 +1,3 @@
 # miniproject-csv
+
+To start the project you can do the composer install command on the CLI or Command prompt (CMD), then after that change .env.test to .env, after that configure the dabase name in my sql then run the php artisan migrate command to create a new table. needed in this project, for convenience I have included the miniproject_csv.sql file and then import it into My Sql which you use. You can run it using php artisan serve on CLI or CMD and also run php artisan queue:work to turn on the back process on the project, for ease I use laragon using PHP 7.4, Apache 2.4.43 vc 15 win 64, mysql 5.7.24 win64 and redis x64-3.2.100
